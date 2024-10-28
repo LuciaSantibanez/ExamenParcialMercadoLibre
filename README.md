@@ -43,12 +43,38 @@ https://examenparcialmercadolibre.onrender.com/
 ### Enpoints
 
 - Método **POST**: 
-Recibe un arreglo de cadenas que representan una secuencia de ADN en formato JSON y devuelve si la secuencia corresponde a un ADN mutante o humano.
+Recibe un array de cadenas que representan una secuencia de ADN en formato JSON a verificar.
 
-  https://examenparcialmercadolibre.onrender.com/mutant
+    https://examenparcialmercadolibre.onrender.com/mutant
+
+    Ejemplo:
+
+```json
+{
+    "dna": [
+        "ATGCGA",
+        "CAGTGC",
+        "TTATGT",
+        "AGAAGG",
+        "CCCCTA",
+        "TCACTG"
+    ]
+}
+```
 
 - Método **GET**:
 Devuelve la cantidad de ADN humano, la cantidad de ADN mutante y el ratio entre ambos.
 
   https://examenparcialmercadolibre.onrender.com/stats
+
+  Ejemplo:
+
+```json
+{
+    "ratio": 4.0,
+    "count_mutant_dna": 8,
+    "count_human_dna": 2
+}
+```
+
 
