@@ -30,10 +30,14 @@ mutante enviando la secuencia de ADN mediante un HTTP POST con un Json.
 
 ## Base de datos H2:
 
+<div ; height: auto; display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: 350px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/0f2118d4-45e7-4bc1-a492-1b64b5d02fb5" alt="Imagen 2" style="width: 550px; height: auto;">
+</div>
+
 ## Deploy en Render
 
 La API se encuentra en Render. Se puede acceder a ella mediante el siguiente enlace:
-
 https://examenparcialmercadolibre.onrender.com/
 
 ### Enpoints
@@ -41,8 +45,10 @@ https://examenparcialmercadolibre.onrender.com/
 - Método **POST**: 
 Recibe un arreglo de cadenas que representan una secuencia de ADN en formato JSON y devuelve si la secuencia corresponde a un ADN mutante o humano.
 
+  https://examenparcialmercadolibre.onrender.com/mutant
+
 - Método **GET**:
 Devuelve la cantidad de ADN humano, la cantidad de ADN mutante y el ratio entre ambos.
 
-
+  https://examenparcialmercadolibre.onrender.com/stats
 
