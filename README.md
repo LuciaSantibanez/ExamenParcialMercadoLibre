@@ -31,8 +31,8 @@ mutante enviando la secuencia de ADN mediante un HTTP POST con un Json.
 ## Base de datos H2:
 
 <div ; height: auto; display: flex; justify-content: space-around;">
-    <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: 350px; height: auto;">
-    <img src="https://github.com/user-attachments/assets/0f2118d4-45e7-4bc1-a492-1b64b5d02fb5" alt="Imagen 2" style="width: 550px; height: auto;">
+    <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: auto; height: 300px;">
+    <img src="https://github.com/user-attachments/assets/0f2118d4-45e7-4bc1-a492-1b64b5d02fb5" alt="Imagen 2" style="width: auto; height: 300px;">
 </div>
 
 ## Deploy en Render
