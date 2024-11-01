@@ -20,11 +20,11 @@ Se recibe como parámetro un array de String que representan cada fila de una ta
 Se sabra si un humano es mutante, si encuentra más de una secuencia de cuatro letras iguales, de forma oblicua, horizontal o vertical.
 
 ## Niveles realizados:
-- **📌 Nivel 1:**
+- ### 📌 Nivel 1:
   
   Programa en JAVA que cumpla con el método pedido por Magneto.
 
-- **📌 Nivel 2:**
+- ### 📌 Nivel 2:
   
     API REST para detectar mutantes, deployada en Render. Se puede acceder a ella mediante el siguiente enlace:
 https://examenparcialmercadolibre.onrender.com/
@@ -65,16 +65,18 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
         }
         ```
 
-- **📌 Nivel 3:** Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
+- ### 📌 Nivel 3:
+  
+  Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
 
- **Base de datos H2**:
+ **Base de datos H2: **
 
 <div ; height: auto; display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: auto; height: 300px;">
     <img src="https://github.com/user-attachments/assets/0f2118d4-45e7-4bc1-a492-1b64b5d02fb5" alt="Imagen 2" style="width: auto; height: 300px;">
 </div>
 
-## Test
+  **Test en Jmeter**
 
 <div ; height: auto; display: flex; justify-content: space-around;">
 
@@ -83,7 +85,8 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
 
 </div>
 
-## Diagrama de secuencias
+**Diagrama de secuencias**
+
 
 
 
