@@ -69,7 +69,7 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
   
   Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
 
- **Base de datos H2: **
+ **Base de datos H2:**
 
 <div ; height: auto; display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: auto; height: 300px;">
@@ -85,7 +85,7 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
 
 </div>
 
-**Diagrama de secuencias**
+  **Diagramas de secuencias**
 
 
 
