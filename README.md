@@ -1,4 +1,4 @@
-# PARCIAL DESARROLLO DE SOFTWARE
+# 🧬 PARCIAL DESARROLLO DE SOFTWARE - Detección de ADN Mutante 🧬
 
 El presente repositorio contiene el ejercicio técnico de Mercado Libre sobre la detección de mutantes.
 
@@ -14,68 +14,66 @@ Para eso te ha pedido crear un programa con un método o función con la siguien
 boolean isMutant(String[] dna)
 ```
 
-## Funcionamiento 
+## ⚙️Funcionamiento 
 
 Se recibe como parámetro un array de String que representan cada fila de una tabla de (NxN) con la secuancia del ADN. Las letras de los Strings solo pueden ser: A, T, C, G, las cuales representan cada base nitrogenada del ADN.
 Se sabra si un humano es mutante, si encuentra más de una secuencia de cuatro letras iguales, de forma oblicua, horizontal o vertical.
 
-## Niveles a realizar:
-- **Nivel 1:** Programa (en cualquier lenguaje de programación) que cumpla con el método pedido por Magneto.
+## Niveles realizados:
+- **📌 Nivel 1:**
+  
+  Programa en JAVA que cumpla con el método pedido por Magneto.
 
-- **Nivel 2:** Crear una API REST, hostear esa API en un cloud computing libre (Google App Engine, 
-Amazon AWS, etc), crear el servicio “/mutant/” en donde se pueda detectar si un humano es 
-mutante enviando la secuencia de ADN mediante un HTTP POST con un Json.
+- **📌 Nivel 2:**
+  
+    API REST para detectar mutantes, deployada en Render. Se puede acceder a ella mediante el siguiente enlace:
+https://examenparcialmercadolibre.onrender.com/
 
-- **Nivel 3:** Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
+    **🌐 Enpoints**
 
-## Base de datos H2:
+    - Método **POST** /mutant: 
+Recibe un array de cadenas que representan una secuencia de ADN en formato JSON a verificar.
+
+        https://examenparcialmercadolibre.onrender.com/mutant
+
+        Formato del body:
+        ```json
+        {
+            "dna": [
+                "ATGCGA",
+                "CAGTGC",
+                "TTATGT",
+                "AGAAGG",
+                "CCCCTA",
+                "TCACTG"
+            ]
+        }
+        ```
+        
+    - Método **GET** /stats: 
+    Devuelve la cantidad de ADN humano, la cantidad de ADN mutante y el ratio entre ambos.
+
+        https://examenparcialmercadolibre.onrender.com/stats
+
+        Formato de respuesta:
+
+        ```json
+        {
+        "ratio": 4.0,
+        "count_mutant_dna": 8,
+        "count_human_dna": 2
+        }
+        ```
+
+- **📌 Nivel 3:** Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
+
+ **Base de datos H2**:
 
 <div ; height: auto; display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: auto; height: 300px;">
     <img src="https://github.com/user-attachments/assets/0f2118d4-45e7-4bc1-a492-1b64b5d02fb5" alt="Imagen 2" style="width: auto; height: 300px;">
 </div>
 
-## Deploy en Render
-
-La API se encuentra en Render. Se puede acceder a ella mediante el siguiente enlace:
-https://examenparcialmercadolibre.onrender.com/
-
-### Enpoints
-
-- Método **POST**: 
-Recibe un array de cadenas que representan una secuencia de ADN en formato JSON a verificar.
-
-    https://examenparcialmercadolibre.onrender.com/mutant
-
-    Ejemplo:
-
-```json
-{
-    "dna": [
-        "ATGCGA",
-        "CAGTGC",
-        "TTATGT",
-        "AGAAGG",
-        "CCCCTA",
-        "TCACTG"
-    ]
-}
-```
-
-- Método **GET**:
-Devuelve la cantidad de ADN humano, la cantidad de ADN mutante y el ratio entre ambos.
-
-  https://examenparcialmercadolibre.onrender.com/stats
-
-  Ejemplo:
-
-```json
-{
-    "ratio": 4.0,
-    "count_mutant_dna": 8,
-    "count_human_dna": 2
-}
-```
 ## Test
 
 <div ; height: auto; display: flex; justify-content: space-around;">
@@ -84,6 +82,9 @@ Devuelve la cantidad de ADN humano, la cantidad de ADN mutante y el ratio entre 
   <img src="https://github.com/user-attachments/assets/9b03d846-950b-40ab-9778-f4730074aa6c" alt="Imagen 1" style="width: 800px; height: auto;"/>
 
 </div>
+
+## Diagrama de secuencias
+
 
 
 
