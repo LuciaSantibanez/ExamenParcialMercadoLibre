@@ -93,10 +93,9 @@ Se utiliza Postman para realizar pruebas de la API. En el proyecto, se proporcio
   - Una petición GET que muestra las estadísticas de las verificaciones de ADN realizadas, ofreciendo un resumen de cuántas secuencias se han identificado como mutantes o no mutantes.
 
   **✔️ Diagramas de secuencias**
-  
-  ![POST](https://github.com/user-attachments/assets/068c9cd2-7237-4483-9690-8c8c97065f33)
-  ![GET](https://github.com/user-attachments/assets/e8bb7008-f98d-423a-af40-531ae982305b)
 
+  <img src="https://github.com/user-attachments/assets/068c9cd2-7237-4483-9690-8c8c97065f33" alt="Imagen 1" style="width: 800px; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/e8bb7008-f98d-423a-af40-531ae982305b" alt="Imagen 1" style="width: 800px; height: auto;"/>
 
 
 
