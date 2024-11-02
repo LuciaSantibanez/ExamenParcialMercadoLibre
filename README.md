@@ -80,8 +80,8 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
 
 <div ; height: auto; display: flex; justify-content: space-around;">
 
-  <img src="https://github.com/user-attachments/assets/15e65c82-d508-4d09-8049-c65100ead454" alt="Imagen 1" style="width: 800px; height: auto;"/>
   <img src="https://github.com/user-attachments/assets/9b03d846-950b-40ab-9778-f4730074aa6c" alt="Imagen 1" style="width: 800px; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/af3e40d2-671d-472c-81f5-5c604edaffeb" alt="Imagen 1" style="width: 800px; height: auto;"/>
 
 </div>
 
