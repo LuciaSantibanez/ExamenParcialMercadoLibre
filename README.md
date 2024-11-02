@@ -69,14 +69,14 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
   
   Anexar una base de datos, la cual guarde los ADN’s verificados con la API.
 
- **Base de datos H2:**
+ **✔️ Base de datos H2:**
 
 <div ; height: auto; display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/992d10ec-dd8b-43cf-ba7b-aeea57431348" alt="Imagen 1" style="width: auto; height: 300px;">
     <img src="https://github.com/user-attachments/assets/0f2118d4-45e7-4bc1-a492-1b64b5d02fb5" alt="Imagen 2" style="width: auto; height: 300px;">
 </div>
 
-  **Test en Jmeter**
+  **✔️ Test en Jmeter**
 
 <div ; height: auto; display: flex; justify-content: space-around;">
 
@@ -85,7 +85,19 @@ Recibe un array de cadenas que representan una secuencia de ADN en formato JSON 
 
 </div>
 
-  **Diagramas de secuencias**
+**✔️ Pruebas**
+
+Se utiliza Postman para realizar pruebas de la API. En el proyecto, se proporciona el archivo MercadoLibre.postman_collection.json, el cual incluye:
+
+  - Una petición POST que contiene un ejemplo de secuencia de ADN mutante, diseñada para verificar si el sistema detecta correctamente a un mutante.
+  - Una petición GET que muestra las estadísticas de las verificaciones de ADN realizadas, ofreciendo un resumen de cuántas secuencias se han identificado como mutantes o no mutantes.
+
+  **✔️ Diagramas de secuencias**
+  
+  ![POST](https://github.com/user-attachments/assets/068c9cd2-7237-4483-9690-8c8c97065f33)
+  ![GET](https://github.com/user-attachments/assets/e8bb7008-f98d-423a-af40-531ae982305b)
+
+
 
 
 
